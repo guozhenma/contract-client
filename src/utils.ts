@@ -1,7 +1,7 @@
 import { config } from "dotenv";
 import { Contract, Wallet, ethers } from "ethers";
 import { Chain } from "./enums";
-import { BUSINESS_ABI } from "./abi";
+import { BUSINESS_ABI } from "./abis";
 
 config({ path: "./.env" });
 
